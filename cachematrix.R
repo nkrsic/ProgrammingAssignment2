@@ -1,7 +1,16 @@
-## Put comments here that give an overall description of what your
-## functions do
+# ------------------------------------------------- 
+#
+#       - makeCacheMatrix()
+#       - cacheSolve()
+#
+#    These two functions provide a "smart matrix" interface
+#    represented as a list of functions. 
 
-## Write a short comment describing this function
+
+#    The makeCacheMatrix() function accepts a matrix object, 
+#    and returns a list of functions which can be used as a 
+#    "wrapper" for the matrix object. 
+
 
 makeCacheMatrix <- function(x = matrix()) {
 
